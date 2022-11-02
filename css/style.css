@@ -1,0 +1,16 @@
+
+.container {
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 1em;
+    width: 50vw;
+
+}
+
+.botoes {
+    display: flex;
+}
