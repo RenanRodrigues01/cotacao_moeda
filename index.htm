@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Conversor</title>
 </head>
 <body>
     <main>
         <div class="container">
-            <h1>Conversor de Moedas</h1>
+            <h1>Cotação de Moedas</h1>
             <div class="botoes">
-                <button class="botaoDolar">Dolar</button>
-                <button class="botaoEuro">Euro</button>
+                <button class="botao" id="botaoDolar">Dolar</button>
+                <button class="botao" id="botaoEuro">Euro</button>
             </div>
             
             <div class="informacoes">
@@ -22,16 +22,8 @@
                      Valor atual: <span id="valorAtual"></span>
                 </p>
             </div>
-            <div class="conversor">
-                <label for="valor">Digite o valor que deseja converter:</label>
-                <input type="number" name="valor" id="valor" placeholder="R$0,00">
-                <button class="converter" onclick="resultado()">Conveter</button>
-                <p>Valor:
-                    <span id="ValorConvertido"></span>
-                </p>
-            </div>
         </div>
     </main>
-    <script src="main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

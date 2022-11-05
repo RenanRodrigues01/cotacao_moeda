@@ -1,0 +1,31 @@
+body {
+    background-image: url(/conversor_moeda/assets/img/money.png);
+}
+.container {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 1em;
+    width: 50vw;
+    background-color: #9DBB82;
+    border-radius: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botao {
+    cursor: pointer;
+    height: 2.2em;
+    width: 80px;
+    background-color: #466D22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 22px;
+}
